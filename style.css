@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.color-fede {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.color-fede2 {
+    background-color: rgb(251, 251, 251);
+}
+
+
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(https://marketplace.canva.com/EAEK4dC2olw/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-y-naranja-fondo-virtual-para-zoom-c3PYha1JI9M.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.movie-categories {
+    list-style: none;
+    margin: 150px;
+    padding: 0;
+    right: 200px;
+}
+
+.movie-categories li {
+    display: flex;
+    margin-right: 100px;
+}
+
+.movie-categories li:last-child {
+    margin-right: 0;
+}
+
+.movie-categories li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.movie-categories li a:hover {
+    color: #ff0000;
+}
+
+.titulo {
+    margin: 50px;
+    padding: 0px;
+}
+
+.patrocinio {
+    margin: 175px;
+    padding: 0px;
+}
+
+
+.img-patrocinio {
+    margin: 200px;
+    padding: auto;
+    height: 100px;
+}
+
+.boton-fede {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+.fede-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fede {
+    margin: auto;
+}
+
+
+.fede-letras {
+
+    font-family: 'Rubik Pixels', cursive;
+}
+
+
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.media {
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.media img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.media-body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+
+
+
+main {
+
+    min-height: 70vh;
+}
+
+footer {
+    min-height: 20vh;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.col-lg-4 img {
+    transition: all .5s;
+}
+
+.col-lg-4 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.bi:hover {
+    color: rgb(5, 153, 216);
+}
+
+
+
+@media (min-width: 40em) {
+
+    .dos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 62em) {
+    .dos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}    
+
+
+
+
+.form-register2 {
+    width: 400px;
+    background-color: rgb(81, 84, 88);
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(227, 16, 16);
+    box-shadow: 7px 13px 37px #0a0808;
+}
+
+.form-register2 h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls2 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid  #ff0000;
+    font-size: 18px;
+    color: #ec930c;
+}
+
+.form-register2 p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; 
+}
+
+.form-register2 a {
+    color: white;
+    text-decoration: red;
+}
+
+.form-register2 a:hover {
+    color: rgb(144, 4, 4);
+    text-decoration: underline;
+}
+
+.form-register2 botons2 {
+    width: 100%;
+    background: #fc9906;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+.color-comentarios{
+    background-color: rgb(7, 99, 246);
+}
+.color-comentario-4{
+    background-color: #ff7b00;
+}
+
+.fede-login{
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.fede-login2{
+  
+    margin-top: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.ancho-reducido {
+    width: 50%;
+}
+  
+  
+@media (max-width: 768px) {
+    
+.ancho-reducido {
+      width: 100%;
+    }
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+
+.price-box {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.price-box span {
+    display: inline-block;
+    margin-right: 5px;
+}
+.price-box .currency {
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 3px;
+}
+
+
+.titulo-abajo{
+    margin-top: 150px;
+  }
+
+
+.contacto-fede{
+    background-image: url(https://i0.wp.com/www.nolapeles.com/wp-content/uploads/2020/04/disney-pixar-virtualbg-toystory.jpg?fit=1920%2C1080&ssl=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+#gallery .col-lg-3 {
+    margin: 0;
+    padding: 20px;
+}
+#gallery img {
+      width: 100%;
+      height: 300px;
+}
+    
+.card{
+      background-color: rgba(0, 0, 1, 0.5);
+      border-radius: 2%;
+      margin: 15px;
+}
+    
+#gallery img:hover{
+      border: 5px solid rgb(217, 201, 27, 0.1);
+}
+
+.log {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+footer {
+  background-color: #756969;
+  color: #fc2803;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: #efeef4;
+}
+
+.paginacion-personalizada .page-link {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+  }
+  
+
+.fede-nosotros{
+    border-radius: 40px;
+}

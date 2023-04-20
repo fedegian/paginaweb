@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <title>Del mal</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg clase-propia ">
+      <div class="container-fluid">
+        <img src="https://cdn-icons-png.flaticon.com/128/2809/2809590.png" alt="" style="max-height: 45px;"
+          class="img-fluid navbar-brand">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <div class="d-flex m-3">
+            <a href="./Login.html" class="nav-link mx-4">Iniciar Sesion</a>
+            <a href="./Registrarse.html" class="nav-link">Registrarse</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="fede-letras">
+      <h1 class="text-center"
+        style="font-family: 'Open Sans', sans-serif; font-size: 2rem; color: #ff0000; animation: pulse 3s infinite;">
+        libranos del mal</h1>
+    </div>
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://mobimg.b-cdn.net/v3/fetch/be/bed1a7bd1dc87bc94bf48344bf84338b.jpeg" class="d-block w-100"
+              alt="..." />
+          </div>
+        </div>
+      </div>
+      <div class="text-center mx-5 my-5">
+        <h1 class="text-center"
+          style="font-family: 'Open Sans', sans-serif; font-size: 2rem; color: #050505; animation: pulse 3s infinite;">
+          Detalles de la pelicula</h1>
+      </div>
+      <div>
+        <h5>En Líbranos del mal, cinta de crimen y horror, escrita y dirigida por Scott Derrickson (Siniestro), el
+          oficial de policía Ralph Sarchie investiga una serie de extraños y violentos crimines, que no parecen seguir
+          algún patrón, en la complicada área de Bronx, Nueva York. A medida que la ola de violencia empieza a
+          extenderse y los medios escandalizan al público, señalando la ineptitud de las autoridades, Sarchie busca
+          nuevos patrones de los crímenes, los cuales logran señalar a dos soldados que pertenecían al mismo pelotón
+          militar en Irak: uno conocido como Jimmy, quien golpeo salvajemente a su esposa y Santino, un hombre
+          misterioso que parece estar escondido del sistema. Poco a poco, es evidente que Santino es mucho más poderoso
+          de lo que esperaba y el oficial recibe la inesperada ayuda de Mendoza, un sacerdote jesuita renegado cuyo
+          trabajo consiste en realizar exorcismos por todo el mundo, asegurándole que Santino está poseído por fuerzas
+          demoníacas.</h5>
+        <h5 class="text-center my-5"
+          style="font-family: 'Open Sans', sans-serif; font-size: 1rem; color: #ff0000; animation: pulse 3s infinite;">
+          PRECIO</h5>
+
+        <div class="text-center my-5">
+          <div class="price-box bg-danger">
+            <span class="currency">$</span>
+            <span class="price">199.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="titulo-abajo">
+        <div class="container my-5  ancho-reducido">
+          <h2>Comentarios</h2>
+          <form>
+            <div class="form-group">
+              <label for="comentario">Escribe tu comentario:</label>
+              <textarea class="form-control" id="comentario" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-danger boton-fede">Enviar</button>
+          </form>
+
+
+
+          <h3>Comentarios de Usuarios</h3>
+
+          <div class="media bg-danger">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="" alt="Foto de perfil de la persona 1">
+            <div class="media-body">
+              <h5 class="mt-0">Alejo luna</h5>
+              Excelente pelicula para saltar de la cama
+            </div>
+          </div>
+
+          <div class="media bg-success">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+              class="mr-3" alt="Foto de perfil de la persona 2">
+            <div class="media-body">
+              <h5 class="mt-0">ruperto puebla</h5>
+              EXCELENTE pelicula de terror
+            </div>
+          </div>
+
+          <div class="media bg-warning">
+            <img src="https://pbs.twimg.com/media/Fs0F6xlWwAAfNSs.jpg" class="mr-3"
+              alt="Foto de perfil de la persona 3">
+            <div class="media-body">
+              <h5 class="mt-0">coscu</h5>
+              MUY nasheeee la pelicula, la recomiendo!!!!!
+            </div>
+          </div>
+
+          <div class="media color-comentario-4">
+            <img src="https://randomuser.me/api/portraits/men/4.jpg" class="mr-3" alt="Foto de perfil de la persona 4">
+            <div class="media-body">
+              <h5 class="mt-0">Matias robles</h5>
+              Muy buena la calidad de la palicula.
+            </div>
+          </div>
+
+          <div class="media color-comentarios">
+            <img src="https://randomuser.me/api/portraits/women/5.jpg" class="mr-3"
+              alt="Foto de perfil de la persona 5">
+            <div class="media-body">
+              <h5 class="mt-0">Francisco delgado</h5>
+              la pelicula super emocionante, espero con ansias la siguiente.
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <footer>
+    <article class="row pb-2">
+      <section class="col-12 col-md-4 col-lg-4">
+        <div class="center pt-4">
+          <a href="../index.html"><img src="../images/logo-pagina.jpg" alt="LOGO Página" class=""></a>
+        </div>
+      </section>
+      <section class="col-12 col-md-4 col-lg-4 text-center pt-5 pb-5 pe-5 ps-5">
+        <h4>Contacto</h4>
+        <P>
+          <i class="bi bi-telephone-outbound-fill pe-3"></i>
+          Tel: 382231616
+        </P>
+        <p>
+          <i class="bi bi-envelope-fill pe-3"></i>
+          Email: hollywowpelis@gmail.com
+        </p>
+        <p>
+          "DIVERTITE TODO EL FIN DE SEMANA.. Y EN CASA"
+        </p>
+      </section>
+      <section class="col-12 col-md-4 col-lg-4 pt-5 pb-5 center">
+        <a href="./error-404.html"><i class="bi bi-facebook fs-2 me-3"></i></a>
+        <a href="./error-404.html"><i class="bi bi-twitter fs-2 me-3"></i></a>
+        <a href="./error-404.html"><i class="bi bi-instagram fs-2 me-3"></i></a>
+        <a href="./error-404.html"><i class="bi bi-whatsapp fs-2"></i></a>
+      </section>
+    </article>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
